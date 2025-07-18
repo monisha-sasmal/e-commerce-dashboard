@@ -1,0 +1,117 @@
+
+
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-ul{
+  padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+.footer{
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: lightblue;
+    
+}
+ .h3{ 
+  color: black;
+ }
+ .inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid lightblue;
+ }
+ .register ,.product{
+  margin-left: 30%;
+ }
+ .appButton{
+  margin: 25px;
+    padding: 10px;
+    width: 150px;
+    background-color: lightblue;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+ }
+ .login{
+  margin-left: 30%;
+  margin-top: 100px;
+ }
+ .nav-right{
+  text-align: right;
+ }
+ .logo{
+  width: 55px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px
+ }
+  .invalid-input{
+    color: red;
+    margin-top: -20px;
+    margin-left: 20px;
+    display: block;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border:1px solid skyblue;
+  padding :5px;
+  width:150px;
+}
+.product-list ul {
+  margin: 0;
+}
+.search-product-box{
+  width: 400px;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid skyblue;
+    padding-left: 10%;
+}
